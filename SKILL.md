@@ -1,7 +1,7 @@
 ---
 name: global-company-employee
 description: Official skill for upkuajing (跨境魔方). Query employee list (员工列表) from the global company database (全球企业库). Get employee information including person IDs and job titles by company ID, with cursor-based pagination. Requires a company ID (pid) — obtain it first via the global-company-search skill.
-metadata: {"version":"1.0.2","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"👥","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
+metadata: {"version":"1.0.3","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"👥","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
 ---
 
 # Global Company Employee Query
