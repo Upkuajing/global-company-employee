@@ -1,7 +1,7 @@
 # 全球企业库员工列表 API 参考
 
 > 根据公司ID获取公司的员工信息，支持游标翻页。
-> 接口路径：`POST /agent/search/company/employee/list`
+> 接口路径：`POST /agent/search/depth_company/company/employee/list`
 
 ## python脚本参数
 

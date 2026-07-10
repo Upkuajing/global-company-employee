@@ -22,7 +22,7 @@ def get_employee_list(pid: str, cursor: str = None) -> dict:
     params = {'pid': pid}
     if cursor:
         params['cursor'] = cursor
-    response = make_request('/agent/search/company/employee/list', params)
+    response = make_request('/agent/search/depth_company/company/employee/list', params)
     return response
 
 
