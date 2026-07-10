@@ -1,7 +1,7 @@
 ---
 name: global-company-employee
 description: Official skill for upkuajing (跨境魔方). Query employee list (员工列表) from the global company database (全球企业库). Get employee information including person IDs and job titles by company ID, with cursor-based pagination. Requires a company ID (pid) — obtain it first via the global-company-search skill.
-metadata: {"version":"1.0.0","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"👥","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
+metadata: {"version":"1.0.1","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"👥","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
 ---
 
 # Global Company Employee Query
@@ -10,7 +10,7 @@ Query employee data from the global company database (全球企业库) using the
 
 ## Overview
 
-This skill provides access to employee information from UpKuaJing's global company database. Given a company ID (pid), it returns the list of employees with their person IDs and job titles. Supports cursor-based pagination for large result sets.
+This skill provides access to employee information from UpKuaJing's global company database. Given a company ID (pid), it returns the list of employees with their person IDs and job titles.
 
 **Prerequisite**: The company ID (pid) is required as input. If the user does not already have a company ID, use the **global-company-search** skill first to search for the target company and obtain its pid, then proceed with this skill.
 
@@ -147,6 +147,9 @@ Other UpKuaJing skills you might find useful:
 - global-company-shareholder — Query shareholder list from the global company database
 - global-company-person-colleague — Query colleague list from the global company database
 - global-company-person-alumni — Query alumni list from the global company database
+- global-company-person-experience — Query work experience list from the global company database
+- global-company-person-education — Query education history list from the global company database
+- global-company-person-school-detail — Query school detail from the global company database
 - linkedin-person-search — Search people from LinkedIn data
 - linkedin-company-search — Search companies from LinkedIn data
 - upkuajing-global-company-people-search — Unified company and people search across all sources
