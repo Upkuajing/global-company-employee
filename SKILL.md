@@ -1,7 +1,7 @@
 ---
 name: global-company-employee
 description: "Retrieve overseas employee profiles by company ID. Get job‑level and department details to find procurement and technical decision‑makers for recruitment and B2B lead generation.\n\nTrigger: overseas employee database lookup, competitor organizational analysis, find company decision‑makers, B2B lead qualification, global staff information search, head‑hunting data"
-metadata: {"version":"1.0.4","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"👥","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
+metadata: {"version":"1.0.5","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"👥","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
 ---
 
 # Global Company Employee Query
