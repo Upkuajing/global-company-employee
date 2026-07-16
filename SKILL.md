@@ -1,7 +1,7 @@
 ---
 name: global-company-employee
-description: Official skill for upkuajing (跨境魔方). Query employee list (员工列表) from the global company database (全球企业库). Get employee information including person IDs and job titles by company ID, with cursor-based pagination. Requires a company ID (pid) — obtain it first via the global-company-search skill.
-metadata: {"version":"1.0.3","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"👥","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
+description: "Retrieve overseas employee profiles by company ID. Get job‑level and department details to find procurement and technical decision‑makers for recruitment and B2B lead generation.\n\nTrigger: overseas employee database lookup, competitor organizational analysis, find company decision‑makers, B2B lead qualification, global staff information search, head‑hunting data"
+metadata: {"version":"1.0.4","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"👥","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
 ---
 
 # Global Company Employee Query
@@ -155,3 +155,6 @@ Other UpKuaJing skills you might find useful:
 - upkuajing-global-company-people-search — Unified company and people search across all sources
 - upkuajing-customs-trade-company-search — Search customs trade companies
 - upkuajing-contact-info-validity-check — Check contact info validity
+- phone-validity-check — Check phone number validity
+- email-validity-check — Check email address validity
+- domain-validity-check — Check domain validity and security
